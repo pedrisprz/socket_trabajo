@@ -9,7 +9,7 @@ import java.util.Base64;
 
 public class Server {
     public static void main(String[] args) {
-        int portNumber = 12345;
+        int portNumber = 3000;
         try {
             ServerSocket serverSocket = new ServerSocket(portNumber);
             System.out.println("Servidor socket multihilo iniciado en el puerto " + portNumber + "...");
