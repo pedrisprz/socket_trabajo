@@ -9,7 +9,7 @@ public class Cliente {
 
     public static void main(String[] args) {
         String ip = "localhost";
-        int puerto = 12345;
+        int puerto = 3000;
 
         try {
             Socket socket = new Socket(ip, puerto);
